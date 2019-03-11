@@ -70,5 +70,6 @@ public class FragmentTechnology extends Fragment {
             }
             position++;
         }
+        mAdapter.notifyDataSetChanged();
     }
 }
